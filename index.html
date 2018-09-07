@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>R-Calculators.com</title>
+	<title>PLATE IQ</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -11,76 +11,61 @@
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Raleway|Sunflower:300|Titillium+Web|Roboto" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
+	
 </head>
+
 <body>
 
-   <!----------------------------Navigaetion Bat----------------------------->
-	<nav class="navbar navbar-expand-md navbar-light bg-light nav-fill" id="navbar">
-		<a class="navbar-brand mt-2" href="#"><img id="logo" src="Images/logo.png" alt="R-Calculators.com"></a>
-		
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-elements" aria-expanded="false" aria-controls="navbar-elements" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		
-		<div class="collapse navbar-collapse" id="navbar-elements">
-			<div class="container">
+
+
+<!----------------------  Navigation Bar ----------------------->
+
+<nav class="navbar navbar-expand mt-4">
+	<a href="navbar-brand mt-2"><img id="logo-image" src="Logo.png" alt="logo"></a>
+	
+<!---------------------- Navigation Items ----------------------->	
+	<ul class="navbar-nav">
+		<li class="nav-item">Products</li>
+		<li class="nav-item">Why Plate IQ</li>
+		<li class="nav-item">Integrations</li>
+		<li class="nav-item">Customers</li>
+	</ul>
+<!------------------------ Side Buttons------------------------->	
+	
+	<button id="login-button" class="btn btn-md "><span>Log In</span></button>
+	
+	<button id="demo-button1" class="btn btn-md">Get a Demo</button>
+
+</nav> 
+
+<!------------------------ Mid section -------------------------->
+
+<div class="container">
+	<div class="row">
+	
+<!----------------------- Written Contents & Form----------------------->	
+		<div class="col-lg-6">
+			<h5 id="automated-heading">AUTOMATED INVOICE PROCESSING</h5>
+			<h2 id="invoices-heading" class="display-5">Easily Manage Invoices</h2>
+			<p id="para">Save time and money with automated <br>invoice processing, payments, and more.</p>
 			
-		<ul class="navbar-nav">
-			<li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Contanct Me!</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">About</a></li>
-		</ul>
-			</div>	                    
+			<input  id="input" placeholder="your@email.com"> <button class="btn btn-md" id="demo-button2">Get a Demo</button>
+			
+			<div id="para2"></div>
 		</div>
 		
-	</nav>
-		
-	<!----------------------------Paragraph----------------------------------->
-	<div class="container-fluid paragraph">
-		<p class="text-justify"><strong>R-Calculators.com</strong> is a practice website I developed to practice my front-end skills. This website mainly calculates some basic to intermediate mathematics operations.
-			The goal of this website is to practice my java-script skills and also making it's UI better in upcoming time. For me, learning never ends. So practicing new things in this area will require some practice and these kinds of sites are useful to me. 
-			Thanks for visiting here. 
-			Feel free to connect with me.</p>
-		
+       
+ <!----------------------- Side Image --------------------------->      
+       <div class="col-lg-6">
+        <img  id="side-image" src="full-throttle.png" alt="side image">
+         </div>
+       
 		
 	</div>
-	
+</div>
+<div id="horizontal-border"></div>
 
-   <!------------------------Crads---------------------------------->
-   <div class="container-fluid card">
-   <h2 class="display-4 mt-4">Select a Category:-</h2>
-   	<div class="row">
-           	
-   	   
-   		<div class="col-sm-12 col-md-4 mt-5">
-   			<div class="section">
-   				<div class="card-body">
-   					<a class="card-image" href="#"><img class="img-fluid" src="Images/fitness.jpeg" alt=""></a>
-   					<div class="card-title"><h3>Fitness Calculator</h3></div>
-   				</div>
-   			</div>
-   		</div> 	
-   		
-   		
-   		<div class="col-sm-12 col-md-4 mt-5">
-   			<div class="section">
-   				<div class="card-body">
-   					<a class="card-image" href="#"><img class="img-fluid" src="Images/finance.jpeg" alt=""></a>
-   					<div class="card-title"><h3>Finance Calculator</h3></div>
-   				</div>
-   			</div>
-   		</div> 	
-   		
-   		<div class="col-sm-12 col-md-4 mt-5">
-   			<div class="section">
-   				<div class="card-body">
-   				<a class="card-image" href="maths-calculator.html"><img class="img-fluid" src="Images/measurement.jpg" alt=""></a>
-   				<div class="card-title"><h3>Maths Calculator</h3></div>
-   				</div>
-   			</div>
-   		</div> 	
-   	</div>
-   </div>
 
+<script src="script.js"></script>
 </body>
 </html>
